@@ -1,0 +1,155 @@
+:root {
+	--input-padding-x: 1.5rem;
+	--input-padding-y: 0.75rem;
+}
+
+body {
+	background: url(https://images.unsplash.com/photo-1500964757637-c85e8a162699?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80);
+}
+
+.navbar-toggler:hover {
+	color: #3496d8;
+}
+.navbar-dark .navbar-brand:hover {
+	color: #3496d8;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #3496d8;
+}
+.navbar-main {
+	width: 100%;
+	text-align: left;
+}
+
+h2 {
+	padding-top: 50px;
+}
+
+.card-signin .card-title {
+	margin-bottom: 2rem;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+	padding: 1.5rem;
+}
+
+.form-signin {
+	width: 100%;
+}
+
+.form-signin .btn {
+	font-size: 80%;
+	border-radius: 5rem;
+	letter-spacing: 0.1rem;
+	font-weight: bold;
+	padding: 1rem;
+	transition: all 0.2s;
+}
+
+.form-content {
+	position: relative;
+	margin-bottom: 1rem;
+}
+
+.form-content input {
+	height: auto;
+	border-radius: 2rem;
+}
+
+.form-content > input,
+.form-content > label {
+	padding: var(--input-padding-y) var(--input-padding-x);
+}
+
+.form-content > label {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	width: 100%;
+	margin-bottom: 0;
+	line-height: 1.5;
+	color: #495057;
+	border: 1px solid transparent;
+	border-radius: 0.25rem;
+	transition: all 0.1s ease-in-out;
+}
+
+.form-content input:not(:placeholder-shown) {
+	padding-top: calc(var(--input-padding-y) + var(--input-padding-y) * (2 / 3));
+	padding-bottom: calc(var(--input-padding-y) / 3);
+}
+
+.form-content input:not(:placeholder-shown) ~ label {
+	padding-top: calc(var(--input-padding-y) / 3);
+	padding-bottom: calc(var(--input-padding-y) / 3);
+	font-size: 12px;
+	color: #777;
+}
+
+.button {
+	background-color: #3496d8;
+	color: white;
+}
+
+.button:hover {
+	background-color: #6abaf0;
+	color: white;
+}
+
+#alertMessage {
+	margin-top : 20px;
+}
+
+#loc {
+	margin: 0;
+	padding: clamp(1rem, 2vw, 3rem);
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.1rem;
+}
+
+h4 {
+	text-align: center;
+}
+
+ol {
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+	padding: 1.5rem 1.5rem 1.5rem 4em;
+	border: 0.3rem solid turquoise;
+	columns: 6rem;
+	column-gap: 7rem;
+	column-rule: 4px dotted turquoise;
+	border-radius: 0.5rem;
+	width: 90%;
+}
+
+ol > * + * {
+	margin-top: 1rem;
+}
+
+li {
+	break-inside: avoid;
+}
+
+::marker {
+	content: counters(list-item, '') ': ';
+	font-weight: 700;
+	font-size: 1em;
+	color: turquoise;
+}
+
+li span {
+	display: block;
+}
+
+li span:first-child {
+	font-size: 1em;
+}
+
+li span:last-child {
+	font-style: italic;
+}
