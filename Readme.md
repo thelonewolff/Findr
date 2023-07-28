@@ -15,10 +15,10 @@ Install the latest version of node from: https://nodejs.org/en/download
 
 Once you have node and npm installed in your system, run the following codes:
 
-git clone https://github.com/thelonewolff/Findr
+```git clone https://github.com/thelonewolff/Findr```
 
-npm install
+```npm install```
 
-node index.js
+```node index.js```
 
 The website will now be running at http://localhost:3000/
