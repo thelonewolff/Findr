@@ -4,10 +4,10 @@ The backend for this project is built using Node.js Express.js and database used
 
 The front-end is built using HTML, CSS, JavaScript and Bootstrap.
 
-The project is deployed at https://findr-5qah.onrender.com
-
 *Note:* This is deployed on a free hosting service hence it takes 60-90 seconds to load for the first time. Subsequent pages will load instantly once you get the landing page.
 The number of restaurants is limited to 100 only due to free API limitations.
+
+The project is deployed at https://findr-5qah.onrender.com
 
 To built this project locally follow the steps mentioned below:
 
